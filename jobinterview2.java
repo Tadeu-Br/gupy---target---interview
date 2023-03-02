@@ -21,7 +21,7 @@ public class Jobinterview2 {
         Scanner scanner = new Scanner(System.in);
 
         //input
-        System.out.print("Enter a number to check if it's in the Fibonacci sequence: ");
+        System.out.print("Coloque um numero pra checar se ele está na sequencia de Fibonacci ");
         int num = scanner.nextInt();
 
         //inicio do ciclo
@@ -32,7 +32,7 @@ public class Jobinterview2 {
         //verificação
         while (c <= num) {
             if (c == num) {
-                System.out.println(num + " is in the Fibonacci sequence.");
+                System.out.println(num + " Está na sequencia de Fibonacci.");
                 return;
             }
             
@@ -43,7 +43,7 @@ public class Jobinterview2 {
             c = a + b;
         }
 //falta de confirmação/lado de fora
-        System.out.println(num + " is not in the Fibonacci sequence.");
+        System.out.println(num + " Não está na sequencia de fibonacci.");
     }
 
 }
